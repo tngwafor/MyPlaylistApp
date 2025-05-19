@@ -1,0 +1,49 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  background-color: #f4f4f4;       
+  color: #333333;                  
+  font-size: 16px;                 
+  font-family: 'Roboto', sans-serif; 
+  margin: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  color: #2c3e50;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #34495e;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+u {
+  display: block;
+  margin-top: 30px;
+}

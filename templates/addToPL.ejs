@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a Song</title>
+    <script src="/formConfirm.js"></script>
+</head>
+<body>
+    <h1>Add a song</h1> <br>
+    <form id="form1" action="/justAdded" method="POST">
+         <fieldset>
+             <legend></legend>
+
+        <label>Song Name: <input type = "text" name="songName"></label>
+        <label>Artist Name: <input type = "text" name="artist"></label> <br><br>
+        <label>Genre:<input type = "text" name ="Genre"></label> <br> <br>
+         </fieldset>
+         <br> <br>
+        <input type="submit" value="Add to Playlist" id="add">
+         <br>
+        <u>_______________________________________________________________________________________</u>
+         <br> <br>
+         <a href="/home">HOME</a>
+    </form>
+
+</body>

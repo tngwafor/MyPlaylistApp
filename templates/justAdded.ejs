@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Added</title>
+</head>
+<body>
+  <h1>New Song Added!</h1>
+  <div>
+    <strong>Name: </strong><%= songName %><br>
+    <strong>by</strong> <%= artist %><br>
+    <strong>Genre:</strong> <%= Genre %><br>
+
+    <% if (artistImage) { %>
+      <br><img src="<%= artistImage %>" alt="Artist Image" width="300"><br>
+    <% } else { %>
+      <p>No artist image found.</p>
+    <% } %>
+
+    <br>
+    <a href="/home">HOME</a>
+    <a href="/viewPlayList"><button>Click here to see your playlist</button></a>
+  </div>
+</body>
+</html>
+
