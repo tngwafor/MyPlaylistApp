@@ -16,7 +16,7 @@ Graceful error handling: database and API failures return clear HTTP 500 respons
 Runtime-configurable port and a console command (stop) to shut the server down cleanly
 
 Tech Stack
-Layer	Technology
+Layer	Technology : 
 
 Database	MongoDB (official mongodb Node driver, hosted connection via URI)
 
@@ -30,7 +30,8 @@ External API	Last.fm artist.getinfo (via axios)
 
 Config	dotenv for secrets (connection string, API key)
 
-Architecture
+Architecture :
+
 MyPlaylistApp/
 ├── MyPlaylist.js      # Entry point: Express setup, middleware, view engine, port + shutdown handling
 ├── routes.js          # Express Router: GET/POST route definitions
