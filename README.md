@@ -4,7 +4,7 @@
 
 A full-stack music playlist web application, built as a small-scale take on a music streaming service. Users can add songs to a personal playlist, view the saved collection in a table, and see an artist image pulled live from a third-party music API when a song is added. Data is persisted in MongoDB, served through Express/Node.js routes, and rendered with EJS templates styled with HTML/CSS.
 
-Features
+Features : 
 Add songs through a form capturing song name, artist, and genre
 
 View the full playlist as a dynamically generated table backed by the database
@@ -52,6 +52,7 @@ json
   "Genre": "string"
 }
 Routes
+
 Method	Path	Description
 GET	/ and /home	Renders the home page
 GET	/addToPL	Renders the add-song form
@@ -59,6 +60,7 @@ GET	/viewPlayList	Queries all songs from MongoDB and renders them as a table
 POST	/justAdded	Inserts the submitted song into MongoDB, fetches the artist image, and renders a confirmation page
 
 Key Implementation Details
+
 Connection reuse: connectDB() checks whether the MongoClient is already connected before opening a new connection, avoiding redundant connections across requests.
 
 Async/await with try/catch: All database and API calls are asynchronous and wrapped in error handling so a failed insert or API call returns a 500 response rather than an unhandled rejection.
