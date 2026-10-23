@@ -112,5 +112,6 @@ Add user accounts so each user has their own playlists
 Add search and filter by artist or genre
 Add automated tests for the data-access layer and routes
 
-Author
+Author : 
+
 tngwafor-University of Maryland
